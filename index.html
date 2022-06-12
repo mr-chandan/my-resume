@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<style>
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+.container{
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+
+}
+
+.cl2{
+    /* background: red; */
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.cl1{
+    /* background: green; */
+    height: 100vh;
+    justify-content: center;
+    
+    align-content: center;
+
+}
+
+i{
+
+    margin-top: 20%;
+}
+
+.text-box{
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FFCA03;
+}
+
+.gg{
+    color: white;
+}
+
+.text-box h2{
+  
+    color: #A3F3EB;
+}
+
+.text-box p{
+    line-height: 2;
+    color: #413F42;
+}
+.icons ul {
+    
+    padding: 0px;
+ 
+    
+
+}
+
+.icons ul li{
+    display: inline;
+    padding: 0px 10px;
+    
+}
+.icons
+{
+    display: flex;
+    
+}
+.icons ul li a{
+    color: #839AA8;
+    
+}
+
+.icons ul li a:hover
+{
+color: #fff;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Oswal" ,sans-serif;
+}
+
+body{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   min-height: 100vh; 
+   background: black;
+}
+
+.cl2 ul{
+    position: relative;
+    transform: skewY(-15deg);
+    transition: 0.5s;
+}
+
+.cl2 ul li{
+    position: relative;
+    list-style: none;
+    background: #423F3E;
+    width: 200px;
+    padding: 15px;
+    z-index: var(--i);
+
+}
+.cl2 ul li:hover{
+background: #A5BECC;
+transform: translateX(-50px);
+}
+.cl2 ul li::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #d00;
+    transform-origin: right;
+    background: #1B2430;
+    transform: skewY(45deg);
+    transition: 0.5s;
+}
+.cl2 ul li:hover::before{
+    background: #1f5378;
+}
+.cl2 ul li:hover::after{
+background: #2982b9;
+}
+.cl2 ul li::after{
+content: '';
+position: absolute;
+top: -40px;
+left: 0;
+width: 100%;
+height: 40px;
+background: #1B2430;
+transform: skewX(45deg);
+transition: 0.5s;
+transform-origin: bottom;
+}
+
+.cl2 ul li a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cl2 ul li:hover a{
+    color: #fff;
+}
+
+.cl2 ul li:last-child::after{
+    box-shadow: -100px 110px 30px #413F42;
+    
+}
+</style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 cl1">
+                    <i class="fa-solid fa-user fa-8x gg"></i>
+                    <div class="text-box">
+                        <h1>&lt;!Chandan H &gt;</h1>
+                        <h5>Building the web </h5><br>
+                        <h2>Me is noob</h2>
+                        <h2>Me is pro</h2>
+                        <h2>Me is code</h2>
+                        <h2>Me is me</h2><br>
+                        <p>The page is messed up like the way my brain is messed up right now <br>
+                            follow me on all the socials .I love to build backends. I have 30+
+                             non complited projects which i will upload soon bye..👋
+                        </p>
+                        <div class="icons">
+                            <ul>
+                                <li><a href="https://twitter.com/mygodlon"><i
+                                            class="fa-brands fa-twitter fa-2x"></i></a></li>
+                                <li> <a href=""><i class="fa-brands fa-github fa-2x"></i></a></li>
+                                <li><a href="https://www.instagram.com/chandan.eth/?igshid=YmMyMTA2M2Y%3D"><i
+                                            class="fa-brands fa-instagram fa-2x"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 cl2 ">
+                    <ul>
+                        <li style="--i:6"><a href="">HOME</a></A></li>
+                        <li style="--i:5"><a href="">About ME</a></A></li>
+                        <li style="--i:4"><a href="">projects</a></A></li>
+                        <li style="--i:3"><a href="">LOADING..</a></A></li>
+                        <li style="--i:2"><a href="">LOADING..</a></A></li>
+                        <li style="--i:1"><a href="">Contact ME</a></A></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f19910cfa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
